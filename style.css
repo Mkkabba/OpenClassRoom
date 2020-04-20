@@ -1,0 +1,112 @@
+body{font-family: Arial, Helvetica, sans-serif; margin:0px;display:flex;}
+.topo{display:none;}
+.all{width:100% auto;
+	height:200% auto;
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+
+	}
+.container{
+	width:30%;
+	height:200% auto;
+	display:flex;
+	background-color:yellow; 
+	flex-direction:column;
+flex-wrap: wrap;
+	}
+	.container p { font-size:20px;
+	}
+
+img {
+	background-color:gold;
+	border:1px solid gold;
+  padding: 5px;
+	width:200px;
+	height:200px;
+  border-radius:50%;
+  margin-top:30px;
+}
+h1{width:auto;}
+.d1{text-align:center;}
+p{margin-left:20px; font-size: 10px; text-align:left ;  }
+.brd1{
+	background-color:grey;
+	color:yellow;
+	text-align:center;
+	height:auto;
+	}
+
+.ss{margin-left:50px;}
+.gold{color:gold;}
+.line{text-decoration: underline;
+text-decoration-color:gold;
+}
+.bloc1{display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	padding-left:20px;
+
+	}
+	.bloc1d11{margin:10px;width:30% ;}
+	.bloc1d1{margin:10px;width:30% ;display:flex;flex-wrap: wrap;}
+	.bloc1d2{margin:10px;width:50%;}
+hr {
+  border-top: 3px solid gold;
+}
+i{color:gold;}
+#a{
+	font-size:3em;
+	color:black;
+	border: 1px solid black;
+	margin-right:20px;
+	margin-left:90px;
+  border-radius: 50%;}
+  #b{
+	  font-size:3em;
+	color:black;
+	border: 1px solid black;
+  border-radius: 50%;
+  	margin-right:20px;
+  }
+  #c{
+	  font-size:3em;
+	color:black;
+	border: 1px solid black;
+  border-radius:50%;
+  margin-right:60px;
+  }
+  .d2{margin:20px; width:67%}
+  @media screen and (max-width:1024px) {
+  .bloc1{
+   flex-direction:column;
+  }
+  .contactall p{text-align:center;}
+  
+}
+@media screen and (max-width:1350px) {
+	body{margin:0px;}
+	.container{width:33%}
+	  .d2{margin:2px; width:65%}
+	  .bloc1d1{margin:10px;width:95% ;display:flex;flex-wrap: wrap;}
+	  .bloc1d11{width:95%}
+	  .bloc1d2{width:95%}
+	  
+	.bloc1d2{margin:10px;width:95%;}
+	.h11{font-size:20px;}
+h5{font-size:17px;}
+ @media screen and (max-width:1024px) {
+  .container{
+	  
+  width:100%
+  }
+  br {
+	display: none;
+}
+.topo{display:inline;}
+ .d2{width:100%}
+ 
+}
+.contactall p{font-size:1.2em;}
+.d3 p{font-size:1.2em;}
+.moji{text-align:center;}
